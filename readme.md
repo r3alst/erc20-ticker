@@ -14,10 +14,12 @@ Setup Environment:
 1. create a file in root named as `env`
 2. add following variables according your setup
 ```
-export FROM_TOKEN="0x0b15Ddf19D47E6a86A56148fb4aFFFc6929BcB89"
-export TO_TOKEN="0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56"
+export FROM_TOKEN="0x0F5D2fB29fb7d3CFeE444a200298f468908cC942"
+export FROM_TOKEN_DECIMALS="18"
+export TO_TOKEN="0xdAC17F958D2ee523a2206206994597C13D831ec7"
+export TO_TOKEN_DECIMALS="6"
 export AMOUNT_IN="500"
-export PAIR_NAME="IDIABUSD"
+export PAIR_NAME="MANAUSDT"
 export TICKER_MANAGER="http://localhost:8000"
 ```
 3. run `source env` to load environment variables.
