@@ -21,6 +21,7 @@ export TO_TOKEN_DECIMALS="6"
 export AMOUNT_IN="500"
 export PAIR_NAME="MANAUSDT"
 export TICKER_MANAGER="http://localhost:8000"
+export ETHER_WSS="wss://mainnet.infura.io/ws/v3/...."
 ```
 3. run `source ./env` to load environment variables.
 
